@@ -4,10 +4,12 @@ on:
   push:
     branches:
       - main
+      - develop
       - feature/AR-create_tests
   pull_request:
     branches:
       - main
+      - develop
       - feature/AR-create_tests
 
 permissions:

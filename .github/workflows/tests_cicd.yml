@@ -34,10 +34,22 @@ jobs:
           
       - name: Run unittests
         run: |
-          python -m unittest discover -s src/tests -p "*.py"
+          pytest --html=src/tests/report.html --self-contained-html
           
       - name: Upload test artifacts
         uses: actions/upload-artifact@v3 
         with:
           name: test_report
-          path: artifacts/
+          path: src/tests/
+
+
+- name: Run Tests with Unittest
+      run: |
+        mkdir -p artifacts
+        python -m unittest discover -s src/tests -p "*.py" > artifacts/test_report.txt
+
+    - name: Upload test artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: relatorio-testes
+        path: artifacts/

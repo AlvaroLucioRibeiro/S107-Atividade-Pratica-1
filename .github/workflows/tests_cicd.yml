@@ -1,16 +1,14 @@
-name: CI_Unittest
+name: CI_S107
 
 on:
   push:
     branches:
       - main
       - develop
-      - feature/AR-create_tests
   pull_request:
     branches:
       - main
       - develop
-      - feature/AR-create_tests
 
 permissions:
   contents: read
@@ -34,10 +32,10 @@ jobs:
           
       - name: Run unittests
         run: |
-          python -m unittest discover -s src/tests -p "*.py"
+          pytest --html=src/tests/report.html --self-contained-html
           
       - name: Upload test artifacts
         uses: actions/upload-artifact@v3 
         with:
           name: test_report
-          path: artifacts/
+          path: src/tests/

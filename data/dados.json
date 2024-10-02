@@ -1,0 +1,38 @@
+{
+    "prof1": {
+        "nomeDoProfessor": "Marcelo Cisneyros",
+        "horarioDeAtendimento": "19:30",
+        "periodo": "Noturno",
+        "sala": "3",
+        "predio": ["1", "2", "3", "4", "6"]
+    },
+    "prof2": {
+        "nomeDoProfessor": "Chris Lima",
+        "horarioDeAtendimento": "15:30",
+        "periodo": "Integral",
+        "sala": "1",
+        "predio": ["1", "2", "3", "4", "6"]
+    },
+    "prof3": {
+        "nomeDoProfessor": "RenZo",
+        "horarioDeAtendimento": "17:30",
+        "periodo": "Integral",
+        "sala": "7",
+        "predio": ["1", "2", "3", "4", "6"]
+    },
+    "prof4": {
+        "nomeDoProfessor": "ThiThi Miguelito",
+        "horarioDeAtendimento": "19:30",
+        "periodo": "Noturno",
+        "sala": "14",
+        "predio": ["1", "2", "3", "4", "6"]
+    },
+    "prof5": {
+        "nomeDoProfessor": "Evandro César Vilas Boas",
+        "horarioDeAtendimento": "08:00",
+        "periodo": "Integral",
+        "sala": "2",
+        "predio": ["1", "2", "3", "4", "6"]
+    }
+}
+  

@@ -1,5 +1,9 @@
 # S107 - Atividade Prática 1
 
+![Build Status](https://github.com/AlvaroLucioRibeiro/S107-Atividade-Pratica-1/actions/workflows/tests_cicd.yml/badge.svg)
+![Python](https://img.shields.io/badge/language-Python-yellow)
+![License: MIT](https://img.shields.io/badge/License-MIT-orange.svg)
+
 Este repositório contém a Atividade Prática 1 da disciplina **S107 - Gerência de Configuração e Evolução de Software (DevOps)**.
 
 ## Descrição
